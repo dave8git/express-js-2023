@@ -17,19 +17,19 @@ app.get('/hello/:name', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-  res.render('about', { layout: false });
+  res.render('about');
 });
 
 app.get('/contact', (req, res) => {
-  res.render('contact', { layout: false });
+  res.render('contact');
 });
 
 app.get('/info', (req, res) => {
-  res.render('info', { layout: false });
+  res.render('info');
 });
 
 app.get('/history', (req, res) => {
-  res.render('history', { layout: false });
+  res.render('history');
 });
 
 app.use((req, res) => {
